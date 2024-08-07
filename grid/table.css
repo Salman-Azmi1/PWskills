@@ -1,0 +1,14 @@
+#head{
+    background-color: red;
+}
+body{
+    font-style: blue;
+    font-size: larger;
+}
+th{
+    padding: 10px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 10px;
+    letter-spacing: 10px;
+}

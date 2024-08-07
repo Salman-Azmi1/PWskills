@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOsulkUR_f8oLAGPxspZnjOExyl_C4a1BMw&s');
+    background-size: cover;
+}
+
+header {
+    background-color: #ff9999;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('https://t4.ftcdn.net/jpg/06/55/63/29/360_F_655632913_o8iWby6JTjIjGbD5Q3mH5Vx6xiP36nsl.jpg');
+}
+.menu-taggle span{
+    height: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.menu-taggle input:checked ~ .menu-btn span:nth-child(2){
+    opacity: 0;
+}
+.menu-taggle input:checked ~ .menu-btn span:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.menu-taggle input:checked ~ .menu-btn span:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: url('https://i.pinimg.com/originals/16/77/74/167774da7c8fa774424e17c5710f46be.jpg');
+}
+#home{
+    background-image: url('https://e0.pxfuel.com/wallpapers/427/142/desktop-wallpaper-cake-baking-cute-kitchen-cake-nice-cg-apron-happy-long-ahri-cream-female-sweet-smiling-smile-house-girl-baking-food-black-hair-kawaii-anime-girl-anime-pretty-bakery-lovely-home.jpg');
+    background-size: cover;
+}
+
+#about{
+    background-image: url('https://cache.desktopnexus.com/thumbseg/2171/2171723-bigthumbnail.jpg');
+    background-size: cover;
+}
+
+section h2 {
+    color: #ff6666;
+    }
+
+.product {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    background-image: url('https://i.pinimg.com/originals/16/77/74/167774da7c8fa774424e17c5710f46be.jpg');
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff9999;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

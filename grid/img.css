@@ -1,0 +1,6 @@
+.img1{
+    box-shadow: 20px  20px 30px green;
+}
+.img2{
+    filter: drop-shadow(20px  20px 30px red );
+}

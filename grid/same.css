@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+@media only screen and (min-width:767px) and (max-width:992px) {
+    .search{
+        display: none;
+    }
+
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s");
+    } 
+}
+.container{
+    background-color: aqua;
+}
